@@ -1,5 +1,9 @@
 # linux命令
 
+### nginx 日志统计分析常用命令
+- https://github.com/opensourceteams/linux/blob/master/md/nginx-log.md
+
+
 
 ## nc命令
 
@@ -23,6 +27,11 @@
 
 ```
 
-### nginx 日志统计分析常用命令
-- https://github.com/opensourceteams/linux/md/nginx-log.md
 
+### ls 过滤文件夹并删除
+- ls过滤当前路径下面的所有文件夹并删除(强制)
+
+```aidl
+
+ ls -l |grep ^d  | xargs rm -rf
+```
