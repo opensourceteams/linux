@@ -7,7 +7,8 @@
 ### nginx 日志统计分析常用命令
 - https://github.com/opensourceteams/linux/blob/master/md/nginx-log.md
 
-
+### linux压缩和解压缩命令
+- https://github.com/opensourceteams/linux/blob/master/md/linux-compression.md
 
 
 ## nc命令
