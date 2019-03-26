@@ -4,6 +4,12 @@
 ## 源码
 - https://github.com/opensourceteams/linux
 
+## 功能描述
+- nginx日志统计分析自动报表工具goaccess(推荐)
+- 网站总访问量统计,按天统计访问量,按页面(不同URL)统计访问量(不包括JS、css),按静态页面统计访问量(包括JS、css),不存在的页面统计访问量
+- 按不同的IP统计访问量,按不同的操作系统统计访问量,按不同的浏览器统计访问量,按时间段(小时为单位)统计访问量,按从哪里链接过来(从哪个网站跳过来)统计访问量
+- 按HTTP状态码统计访问量,按洲统计访问量
+
 ## 图表
 - https://github.com/opensourceteams/linux/blob/master/md/images/goaccess.html
 - https://github.com/opensourceteams/linux/blob/master/md/images/goaccess.png
