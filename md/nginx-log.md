@@ -27,6 +27,10 @@
   grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $1}' | sort -n |uniq -c | sort -rn | head -n 100
 ```
 
+### 统计某天访问量最多的前100个页面
+```aidl
+  grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 100
+```
 
 ----------------------
 
