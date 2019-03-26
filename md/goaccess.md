@@ -1,6 +1,11 @@
 # goaccess  分析nginx日志使用说明
 - 官网: https://goaccess.io/download
 
+## 图表
+- https://github.com/opensourceteams/linux/blob/master/md/images/goaccess.html
+- https://github.com/opensourceteams/linux/blob/master/md/images/goaccess.png
+![](https://github.com/opensourceteams/linux/blob/master/md/images/goaccess.png)
+
 ## 安装(centos)
 ```aidl
  wget https://tar.goaccess.io/goaccess-1.3.tar.gz

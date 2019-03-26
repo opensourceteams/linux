@@ -1,7 +1,12 @@
 # linux命令
 
+### nginx 日志统计分析自动报表工具(推荐)
+- https://github.com/opensourceteams/linux/blob/master/md/goaccess.md
+
+
 ### nginx 日志统计分析常用命令
 - https://github.com/opensourceteams/linux/blob/master/md/nginx-log.md
+
 
 
 
