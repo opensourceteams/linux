@@ -11,6 +11,9 @@
 - https://github.com/opensourceteams/linux/blob/master/md/linux-compression.md
 
 
+## iftop 命令(流量监控)
+- https://github.com/opensourceteams/linux/blob/master/md/linux-iftop.md
+
 ## nc命令
 
 ### nc发送消息
