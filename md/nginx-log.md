@@ -2,6 +2,35 @@
 - https://www.cnblogs.com/gouge/p/7089939.html
 
 
+
+## 常用
+
+### 统计某天的IP个数
+```aidl
+ grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $1}'  | sort -n | uniq | wc -l
+```
+
+
+### 统计某天的PV(总访问次数)
+```aidl
+ grep "26/Mar/2019" /usr/local/nginx/logs/access.log | wc -l
+```
+
+
+### 统计一天IP访问次数
+```aidl
+  grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $1}' | sort -n |uniq -c | sort -rn | head -n 100
+```
+
+### 统计某天的IP访问次数
+```aidl
+  grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $1}' | sort -n |uniq -c | sort -rn | head -n 100
+```
+
+
+----------------------
+
+
 ## IP相关统计
 - 统计IP访问量（独立ip访问数量）
 
