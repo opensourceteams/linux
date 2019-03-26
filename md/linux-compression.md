@@ -78,30 +78,56 @@ tar jcvf FileName.tar.bz2 DirName
 
 ### bz命令
 
-- 解压1：bzip2 -d FileName.bz
+- 解压1：
+```
+bzip2 -d FileName.bz
+```
 
-- 解压2：bunzip2 FileName.bz
+- 解压2：
+```
+bunzip2 FileName.bz
+```
 
 　　压缩：未知
 
 - .tar.bz
 
-　　解压：tar jxvf FileName.tar.bz
+　　解压：
+```
+tar jxvf FileName.tar.bz
+```
 
 ### Z命令
 
-- 解压：uncompress FileName.Z
+- 解压：
+```
+uncompress FileName.Z
+```
 
-- 压缩：compress FileName
+- 压缩：
+```compress FileName
+```
 
 - .tar.Z
 
-- 解压：tar Zxvf FileName.tar.Z
+- 解压：
+```
+tar Zxvf FileName.tar.Z
+```
 
-- 压缩：tar Zcvf FileName.tar.Z DirName
+- 压缩：
+```
+tar Zcvf FileName.tar.Z DirName
+```
 
 ### zip命令
 
-- 解压：unzip FileName.zip
+- 解压：
+```
+unzip FileName.zip
+```
 
-- 压缩：zip -r FileName.zip DirName
+- 压缩：
+```
+zip -r FileName.zip DirName
+```
