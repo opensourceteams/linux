@@ -1,5 +1,8 @@
-# goaccess  分析nginx日志使用说明
+# nginx日志统计分析自动报表工具goaccess(推荐)
 - 官网: https://goaccess.io/download
+
+## 源码
+- https://github.com/opensourceteams/linux
 
 ## 图表
 - https://github.com/opensourceteams/linux/blob/master/md/images/goaccess.html
