@@ -17,11 +17,6 @@
 ```
 
 
-### 统计一天IP访问次数
-```aidl
-  grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $1}' | sort -n |uniq -c | sort -rn | head -n 100
-```
-
 ### 统计某天的IP访问次数
 ```aidl
   grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $1}' | sort -n |uniq -c | sort -rn | head -n 100
@@ -31,6 +26,13 @@
 ```aidl
   grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 100
 ```
+
+- 查询某个IP的详细访问情况,按访问频率排序
+
+```aidl
+grep '127.0.0.1' access.log |awk '{print $7}'|sort |uniq -c |sort -rn |head -n 100
+```
+
 
 ----------------------
 
@@ -64,7 +66,7 @@ awk '{print $1}' access.log | sort -n |uniq -c |awk '{if($1 >100) print $0}'|sor
 - 查询某个IP的详细访问情况,按访问频率排序
 
 ```aidl
-grep '127.0.01' access.log |awk '{print $7}'|sort |uniq -c |sort -rn |head -n 100
+grep '127.0.0.1' access.log |awk '{print $7}'|sort |uniq -c |sort -rn |head -n 100
 ```
 
 
