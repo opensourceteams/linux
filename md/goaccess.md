@@ -48,3 +48,13 @@ log-format %h %^[%d:%t %^] "%r" %s %b "%R" "%u"
 ```aidl
 goaccess -a -d -f /usr/local/nginx/logs/access.log -p /usr/local/etc/goaccess/goaccess.conf  -o html/goaccess.html
 ```
+
+
+### 网站总访问量统计
+- Total Requests (总请求次数)
+- Valid Requests (有效的总请求次数)
+- Failed Requests (无效的总请求次数)
+- Not Found (不存的在页面请求次数)
+
+- https://github.com/opensourceteams/linux/blob/master/md/images/goaccess/1.png
+![](https://github.com/opensourceteams/linux/blob/master/md/images/goaccess/1.png)
