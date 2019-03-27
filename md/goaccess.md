@@ -55,7 +55,7 @@ log-format %h %^[%d:%t %^] "%r" %s %b "%R" "%u"
 - 
 
 ```aidl
-goaccess -a -d -f /usr/local/nginx/logs/access.log -p /usr/local/etc/goaccess/goaccess.conf  -o html/goaccess.html
+goaccess -a -d -f /usr/local/nginx/logs/access.log -p /usr/local/etc/goaccess/goaccess.conf  -o /home/liuwen/data/html/goaccess.html
 ```
 
 
