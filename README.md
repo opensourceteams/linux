@@ -14,6 +14,17 @@
 ## iftop 命令(流量监控)
 - https://github.com/opensourceteams/linux/blob/master/md/linux-iftop.md
 
+
+## linux 网速测试(上传/下载速度)
+```aidl
+wget https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py
+chmod +rx speedtesti.py
+./speedtesti.py
+
+```
+- https://github.com/opensourceteams/linux/blob/master/md/images/speedtesti/speedtesti.png
+![](https://github.com/opensourceteams/linux/blob/master/md/images/speedtesti/speedtesti.png)
+
 ## nc命令
 
 ### nc发送消息
