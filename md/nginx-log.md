@@ -27,6 +27,12 @@
   grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 100
 ```
 
+- 排除 js  css
+```aidl
+grep "27/Mar/2019" /usr/local/nginx/logs/access.log | grep -v '.js\|.css'  | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 100
+
+```
+
 - 查询某个IP的详细访问情况,按访问频率排序
 
 ```aidl
