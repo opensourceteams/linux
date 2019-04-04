@@ -10,6 +10,8 @@
 ### linux压缩和解压缩命令
 - https://github.com/opensourceteams/linux/blob/master/md/linux-compression.md
 
+### FFmpeg命令行工具的使用 
+- https://github.com/opensourceteams/linux/blob/master/md/FFmpeg.md
 
 ## iftop 命令(流量监控)
 - https://github.com/opensourceteams/linux/blob/master/md/linux-iftop.md
