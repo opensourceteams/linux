@@ -15,6 +15,13 @@
 - https://github.com/opensourceteams/linux/blob/master/md/images/goaccess.png
 ![](https://github.com/opensourceteams/linux/blob/master/md/images/goaccess.png)
 
+## 安装依赖
+```aidl
+yum -y install gcc gcc-c++ make expat-devel
+yum install -y GeoIP-devel
+yum install -y ncurses-devel
+
+```
 ## 安装(centos)
 ```aidl
  wget https://tar.goaccess.io/goaccess-1.3.tar.gz
