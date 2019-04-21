@@ -16,6 +16,9 @@
 ## iftop 命令(流量监控)
 - https://github.com/opensourceteams/linux/blob/master/md/linux-iftop.md
 
+## 杀掉指定端口号的java程序
+- https://github.com/opensourceteams/linux/blob/master/md/java.md
+
 
 ## linux 网速测试(上传/下载速度)
 ```aidl
