@@ -19,6 +19,9 @@
 ## 杀掉指定端口号的java程序
 - https://github.com/opensourceteams/linux/blob/master/md/java.md
 
+## 扫描远程服务器上开放的端口
+- https://github.com/opensourceteams/linux/blob/master/md/linux-nmap.md
+
 
 ## linux 网速测试(上传/下载速度)
 ```aidl
