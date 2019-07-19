@@ -7,29 +7,29 @@
 
 ### 统计某天的IP个数
 ```aidl
- grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $1}'  | sort -n | uniq | wc -l
+grep $(date +%d/%b/%Y) /usr/local/nginx/logs/access.log | awk '{print $1}'  | sort -n | uniq | wc -l
 ```
 
 
 ### 统计某天的PV(总访问次数)
 ```aidl
- grep "26/Mar/2019" /usr/local/nginx/logs/access.log | wc -l
+grep $(date +%d/%b/%Y) /usr/local/nginx/logs/access.log | wc -l
 ```
 
 
 ### 统计某天的IP访问次数
 ```aidl
-  grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $1}' | sort -n |uniq -c | sort -rn | head -n 100
+grep $(date +%d/%b/%Y) /usr/local/nginx/logs/access.log | awk '{print $1}' | sort -n |uniq -c | sort -rn | head -n 100
 ```
 
 ### 统计某天访问量最多的前100个页面
 ```aidl
-  grep "26/Mar/2019" /usr/local/nginx/logs/access.log | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 100
+grep $(date +%d/%b/%Y) /usr/local/nginx/logs/access.log | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 100
 ```
 
 - 排除 js  css
 ```aidl
-grep "27/Mar/2019" /usr/local/nginx/logs/access.log | grep -v '.js\|.css'  | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 100
+grep $(date +%d/%b/%Y) /usr/local/nginx/logs/access.log | grep -v '.js\|.css'  | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 100
 
 ```
 
