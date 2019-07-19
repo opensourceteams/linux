@@ -31,6 +31,13 @@ grep $(date +%d/%b/%Y) /usr/local/nginx/logs/access.log | awk '{print $7}' | sor
 ```aidl
 grep $(date +%d/%b/%Y) /usr/local/nginx/logs/access.log | grep -v '.js\|.css'  | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 100
 
+grep $(date +%d/%b/%Y) /usr/local/nginx/logs/access.log | grep -v '.js\|.css\|.jpg\|.ico\|.png'  | awk '{print $7}' | sort |uniq -c | sort -rn | head -n 50
+
+grep $(date +%d/%b/%Y) /usr/local/nginx/logs/access.log | grep -v '.js\|.css\|.jpg\|.ico\|.png'  | awk '{print $7}' | awk -F '[?]' '{print $1}'  | sort |uniq -c | sort -rn | head -n 1000
+
+#昨天
+grep $(date -d "1 day ago" +%d/%b/%Y) /usr/local/nginx/logs/access.log | grep -v '.js\|.css\|.jpg\|.ico\|.png'  | awk '{print $7}' | awk -F '[?]' '{print $1}'  | sort |uniq -c | sort -rn | head -n 1000
+
 ```
 
 - 查询某个IP的详细访问情况,按访问频率排序
